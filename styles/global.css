@@ -1,0 +1,27 @@
+:root {
+    --main-font: "Poppins";
+    --title-font: "Nunito Sans";
+    --bg1: #1c1c1c;
+    --bg2: #252525;
+    --bg3: #393939;
+    --bg4: #757575;
+    --accent: #2142c7;
+    --dark-accent: #172e77;
+    --sub-text: #d7d7d7;
+    --small-text: #afafaf;
+    --green: #8ef241;
+    --red: #e03d24;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--main-font), sans-serif;
+    color: white
+}
+
+body {
+    background: linear-gradient(-45deg, var(--bg1), var(--bg2))
+}
