@@ -25,3 +25,7 @@
 body {
     background: linear-gradient(-45deg, var(--bg1), var(--bg2))
 }
+
+hr.dashed {
+    border: 1px dashed white
+}
